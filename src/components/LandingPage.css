@@ -1,0 +1,36 @@
+.landing-page {
+  /* background-image: url("/images/landing-background.jpg"); */
+  background-color: #666;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-page h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.landing-page p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.landing-page button {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.landing-page button:hover {
+  background-color: #218838;
+}
